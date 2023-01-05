@@ -1,0 +1,107 @@
+.cryptocurrencies {
+  background: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // height: 80vh;
+    row-gap: 40px;
+    margin-bottom: 150px;
+    &-title {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 72px;
+      line-height: 86px;
+      text-align: center;
+      color: #fff;
+    }
+    &-text {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 147.5%;
+      text-align: center;
+      color: #bebebe;
+    }
+    &-btn {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      color: #eeeeee;
+      border: 1px solid #a566dc;
+      background: linear-gradient(
+        180deg,
+        rgba(139, 0, 255, 0.55) 0%,
+        rgba(96, 60, 126, 0.55) 48.33%,
+        rgba(139, 0, 255, 0.55) 100%
+      );
+      box-shadow: 0px 2px 17px rgba(184, 124, 234, 0.6);
+      backdrop-filter: blur(15px);
+      border-radius: 10px;
+      display: block;
+      width: 246px;
+      height: 60px;
+      transition: 5s all;
+      &:hover {
+        background: linear-gradient(
+          180deg,
+          rgba(163, 52, 255, 0.55) 0%,
+          rgba(115, 75, 149, 0.55) 48.33%,
+          rgba(183, 97, 255, 0.55) 100%
+        );
+        box-shadow: 0px 2px 38px rgba(184, 124, 234, 0.6);
+        backdrop-filter: blur(15px);
+        transition: 0.3 ease 0;
+      }
+    }
+  }
+  &__image {
+    background: rgba(132, 66, 187, 0.2);
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &__col-3 {
+    width: 262px;
+    height: 208px;
+  }
+  &__boximage {
+    width: 100px;
+    height: 100px;
+    background: rgba(132, 66, 187, 0.2);
+    backdrop-filter: blur(12px);
+    border-radius: 50%;
+    position: relative;
+    left: 70px;
+  }
+  &__text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+.wrap {
+  // display: flex;
+  // align-items: center;
+}
+.row {
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,59 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  background-color: transparent;
+  &__all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__menu {
+    display: flex;
+    column-gap: 36px;
+  }
+  &__menu-link {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #bebebe;
+  }
+  &__menu-link-red {
+    color: #d199ff;
+  }
+  &__buttom {
+    padding: 20px 0;
+    &-btn {
+      width: 220px;
+      height: 60px;
+      background: #281d31;
+      border: 1px solid #8b00ff;
+      border-radius: 10px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        background: #332440;
+        transition: 0.3 ease 0;
+      }
+      .btn {
+        color: #eeeeee;
+        background: #281d31;
+        border: none;
+        &:hover {
+          background: #332440;
+          transition: 0.3 ease 0;
+        }
+      }
+    }
+  }
+}

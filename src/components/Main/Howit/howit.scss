@@ -1,0 +1,92 @@
+.howit {
+  margin-top: 50px;
+  &__logo {
+    &-title {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 60px;
+      line-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      background: linear-gradient(91.79deg, #ffffff 16.66%, #8b8f90 113.08%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+  }
+  &__body {
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+  }
+  &__content {
+    color: #fff;
+    display: flex;
+    column-gap: 20px;
+    &-text {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 33px;
+      display: flex;
+      align-items: center;
+      color: #ffffff;
+    }
+    &-number {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #d199ff;
+      background: rgba(132, 66, 187, 0.2);
+      backdrop-filter: blur(12px);
+      border-radius: 15px;
+      height: 80px;
+      width: 80px;
+    }
+    &-btn {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      color: #eeeeee;
+      background: linear-gradient(
+        180deg,
+        rgba(139, 0, 255, 0.55) 0%,
+        rgba(96, 60, 126, 0.55) 48.33%,
+        rgba(139, 0, 255, 0.55) 100%
+      );
+      box-shadow: 0px 2px 17px rgba(184, 124, 234, 0.6);
+      backdrop-filter: blur(15px);
+      border-radius: 10px;
+      width: 267px;
+      height: 60px;
+      border: 1px solid #a566dc;
+      padding: 20px;
+      &:hover {
+        background: linear-gradient(
+          180deg,
+          rgba(163, 52, 255, 0.55) 0%,
+          rgba(115, 75, 149, 0.55) 48.33%,
+          rgba(183, 97, 255, 0.55) 100%
+        );
+        box-shadow: 0px 2px 38px rgba(184, 124, 234, 0.6);
+        backdrop-filter: blur(15px);
+        transition: 0.3 ease 0;
+      }
+    }
+  }
+}

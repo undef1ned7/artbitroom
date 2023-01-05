@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3em;
+    height: 100%;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    &__nav{
+        &-text{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #868686;
+        }
+    }
+}

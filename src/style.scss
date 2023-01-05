@@ -1,0 +1,56 @@
+*::selection {
+  background-color: #a566dc;
+  color: #fff;
+}
+.wrapper {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.wrapper1 {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+section {
+}
+.col-3 {
+  width: 25%;
+  padding: 0 15px;
+}
+.col-4 {
+  width: 33.3%;
+  padding: 0 15px;
+}
+.col-6 {
+  width: 50%;
+  padding: 0 15px;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: #1e1e1e;
+  position: relative;
+  z-index: -4;
+}
+.page-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.page-content {
+  flex: 1;
+}
